@@ -5,8 +5,6 @@ ScriptsOnlyBuild:
     Unity.XR.Interaction.Toolkit.dll:
     - UnityEngine.XR.Interaction.Toolkit.LocomotionSystem
     - UnityEngine.XR.Interaction.Toolkit.SnapTurnProvider
-    - UnityEngine.XR.Interaction.Toolkit.TeleportationAnchor
-    - UnityEngine.XR.Interaction.Toolkit.TeleportationArea
     - UnityEngine.XR.Interaction.Toolkit.TeleportationProvider
     - UnityEngine.XR.Interaction.Toolkit.XRController
     - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
@@ -28,7 +26,7 @@ ScriptsOnlyBuild:
     UnityEngine.SpatialTracking.dll:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
   sceneClasses:
-    Assets/_P3-ExperienciaVR/Scenes/Alumno/P3-MENUPRINCIPAL.unity:
+    Assets/_P3-ExperienciaVR/Scenes/Alumno/P3-HUB.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -49,7 +47,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
-    - Class: 65
+    - Class: 81
       Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
@@ -60,27 +58,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11622}
+      Script: {instanceID: 11406}
     - Class: 114
-      Script: {instanceID: 11662}
+      Script: {instanceID: 11446}
     - Class: 114
-      Script: {instanceID: 11686}
+      Script: {instanceID: 11470}
     - Class: 114
-      Script: {instanceID: 11988}
+      Script: {instanceID: 11772}
     - Class: 114
-      Script: {instanceID: 12326}
+      Script: {instanceID: 12376}
     - Class: 114
-      Script: {instanceID: 12592}
+      Script: {instanceID: 12686}
     - Class: 114
-      Script: {instanceID: 12902}
+      Script: {instanceID: 12882}
     - Class: 114
-      Script: {instanceID: 13096}
+      Script: {instanceID: 13170}
     - Class: 114
-      Script: {instanceID: 13152}
-    - Class: 114
-      Script: {instanceID: 13384}
-    - Class: 114
-      Script: {instanceID: 13452}
+      Script: {instanceID: 13238}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -680,5 +674,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
-  - Assets/_P3-ExperienciaVR/Scenes/Alumno/P3-MENUPRINCIPAL.unity
-  playerPath: C:/Users/ViralStudios28/Documents/GitHub/Ejecutables/P3/Exec1.apk
+  - Assets/_P3-ExperienciaVR/Scenes/Alumno/P3-HUB.unity
+  playerPath: C:/Users/ViralStudios28/Documents/GitHub/Ejecutables/P3/Exec2.apk

@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_P3-ExperienciaVR/Scenes/Alumno/P3-PRIMERAPRUEBA.unity
-    guid: d5c7f18685655eb409ffdec20daad3ba
+    path: Assets/_P3-ExperienciaVR/Scenes/Alumno/P3-HUB.unity
+    guid: 76792e5816009604f906112c6bd6c2b1
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e9a2b5715637a3143b05618b71e9a788,
       type: 2}
