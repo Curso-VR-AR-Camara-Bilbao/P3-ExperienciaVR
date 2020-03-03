@@ -28,7 +28,7 @@ ScriptsOnlyBuild:
     UnityEngine.SpatialTracking.dll:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
   sceneClasses:
-    Assets/_P3-ExperienciaVR/Scenes/P3-EscenaTest.unity:
+    Assets/_P3-ExperienciaVR/Scenes/Alumno/P3-MENUPRINCIPAL.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -49,6 +49,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 95
@@ -58,32 +60,30 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11406}
+      Script: {instanceID: 11622}
     - Class: 114
-      Script: {instanceID: 11446}
+      Script: {instanceID: 11662}
     - Class: 114
-      Script: {instanceID: 11470}
+      Script: {instanceID: 11686}
     - Class: 114
-      Script: {instanceID: 11772}
+      Script: {instanceID: 11988}
     - Class: 114
-      Script: {instanceID: 12110}
+      Script: {instanceID: 12326}
     - Class: 114
-      Script: {instanceID: 12376}
+      Script: {instanceID: 12592}
     - Class: 114
-      Script: {instanceID: 12686}
+      Script: {instanceID: 12902}
     - Class: 114
-      Script: {instanceID: 12882}
+      Script: {instanceID: 13096}
     - Class: 114
-      Script: {instanceID: 12938}
+      Script: {instanceID: 13152}
     - Class: 114
-      Script: {instanceID: 13170}
+      Script: {instanceID: 13384}
     - Class: 114
-      Script: {instanceID: 13238}
+      Script: {instanceID: 13452}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
-      Script: {instanceID: 0}
-    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -680,5 +680,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
-  - Assets/_P3-ExperienciaVR/Scenes/P3-EscenaTest.unity
-  playerPath: C:/Users/arfip/Downloads/OutApk/Apk1.apk
+  - Assets/_P3-ExperienciaVR/Scenes/Alumno/P3-MENUPRINCIPAL.unity
+  playerPath: C:/Users/ViralStudios28/Documents/GitHub/Ejecutables/P3/Exec1.apk
