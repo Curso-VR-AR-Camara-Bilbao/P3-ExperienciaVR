@@ -5,8 +5,11 @@ ScriptsOnlyBuild:
     Unity.XR.Interaction.Toolkit.dll:
     - UnityEngine.XR.Interaction.Toolkit.LocomotionSystem
     - UnityEngine.XR.Interaction.Toolkit.SnapTurnProvider
+    - UnityEngine.XR.Interaction.Toolkit.TeleportationAnchor
+    - UnityEngine.XR.Interaction.Toolkit.TeleportationArea
     - UnityEngine.XR.Interaction.Toolkit.TeleportationProvider
     - UnityEngine.XR.Interaction.Toolkit.XRController
+    - UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable
     - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
     - UnityEngine.XR.Interaction.Toolkit.XRInteractorLineVisual
     - UnityEngine.XR.Interaction.Toolkit.XRRayInteractor
@@ -26,7 +29,7 @@ ScriptsOnlyBuild:
     UnityEngine.SpatialTracking.dll:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
   sceneClasses:
-    Assets/_P3-ExperienciaVR/Scenes/Alumno/P3-HUB.unity:
+    Assets/_P3-ExperienciaVR/Scenes/Profesor/P3-HUB-Terminado.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -45,9 +48,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
@@ -58,23 +67,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11406}
+      Script: {instanceID: 11634}
     - Class: 114
-      Script: {instanceID: 11446}
+      Script: {instanceID: 11674}
     - Class: 114
-      Script: {instanceID: 11470}
+      Script: {instanceID: 11698}
     - Class: 114
-      Script: {instanceID: 11772}
+      Script: {instanceID: 12000}
     - Class: 114
-      Script: {instanceID: 12376}
+      Script: {instanceID: 12338}
     - Class: 114
-      Script: {instanceID: 12686}
+      Script: {instanceID: 12604}
     - Class: 114
-      Script: {instanceID: 12882}
+      Script: {instanceID: 12842}
     - Class: 114
-      Script: {instanceID: 13170}
+      Script: {instanceID: 12914}
     - Class: 114
-      Script: {instanceID: 13238}
+      Script: {instanceID: 13110}
+    - Class: 114
+      Script: {instanceID: 13166}
+    - Class: 114
+      Script: {instanceID: 13398}
+    - Class: 114
+      Script: {instanceID: 13466}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -82,6 +97,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -674,5 +693,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
-  - Assets/_P3-ExperienciaVR/Scenes/Alumno/P3-HUB.unity
-  playerPath: C:/Users/ViralStudios28/Documents/GitHub/Ejecutables/P3/Exec2.apk
+  - Assets/_P3-ExperienciaVR/Scenes/Profesor/P3-HUB-Terminado.unity
+  playerPath: C:/Users/arfip/Downloads/OutApk/Apk1.apk
