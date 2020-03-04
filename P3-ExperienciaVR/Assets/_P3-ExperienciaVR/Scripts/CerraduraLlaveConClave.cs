@@ -10,9 +10,9 @@ public class CerraduraLlaveConClave : MonoBehaviour
   public UnityEvent OnClaveCorrecta;
   public UnityEvent OnClaveIncorrecta;
 
-  private void OnTriggerEnter(Collision collision)
+  private void OnTriggerEnter(Collider other)
   {
-    GameObject ObjectoColisionado = collision.gameObject;
+    GameObject ObjectoColisionado = other.gameObject;
     if (ObjectoColisionado.GetComponent<LlaveConClave>())
     {
       if (ObjectoColisionado.GetComponent<LlaveConClave>().Clave == Clave) // Si la clave coincide
@@ -26,4 +26,5 @@ public class CerraduraLlaveConClave : MonoBehaviour
 
     }
   }
+
 }

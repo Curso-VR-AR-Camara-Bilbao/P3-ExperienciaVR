@@ -1,5 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - CerraduraLlaveConClave
+    - LlaveConClave
+    - PuertaAutomatica
+    - Utils
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.Interaction.Toolkit.dll:
@@ -22,6 +27,14 @@ ScriptsOnlyBuild:
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusLoader
     - Unity.XR.Oculus.OculusSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -54,11 +67,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
       Script: {instanceID: 0}
     - Class: 95
       Script: {instanceID: 0}
@@ -67,29 +88,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11634}
+      Script: {instanceID: 11428}
     - Class: 114
-      Script: {instanceID: 11674}
+      Script: {instanceID: 11468}
     - Class: 114
-      Script: {instanceID: 11698}
+      Script: {instanceID: 11492}
     - Class: 114
-      Script: {instanceID: 12000}
+      Script: {instanceID: 11802}
     - Class: 114
-      Script: {instanceID: 12338}
+      Script: {instanceID: 12090}
     - Class: 114
-      Script: {instanceID: 12604}
+      Script: {instanceID: 12160}
     - Class: 114
-      Script: {instanceID: 12842}
+      Script: {instanceID: 12434}
     - Class: 114
-      Script: {instanceID: 12914}
+      Script: {instanceID: 12684}
     - Class: 114
-      Script: {instanceID: 13110}
+      Script: {instanceID: 12710}
     - Class: 114
-      Script: {instanceID: 13166}
+      Script: {instanceID: 12764}
     - Class: 114
-      Script: {instanceID: 13398}
+      Script: {instanceID: 12966}
     - Class: 114
-      Script: {instanceID: 13466}
+      Script: {instanceID: 13022}
+    - Class: 114
+      Script: {instanceID: 13258}
+    - Class: 114
+      Script: {instanceID: 13328}
+    - Class: 114
+      Script: {instanceID: 13330}
+    - Class: 114
+      Script: {instanceID: 13334}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -369,6 +398,12 @@ ScriptsOnlyBuild:
     className: XRControllerRecorder
   - hash:
       serializedVersion: 2
+      Hash: 30f3213a6e218a461fa00e428f22d3eb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PuertaAutomatica
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -513,6 +548,12 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Utils
+  - hash:
+      serializedVersion: 2
       Hash: f97c73485ace05715ab217e1fe7b1b92
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
@@ -649,6 +690,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: XRInteractorLineVisual
+  - hash:
+      serializedVersion: 2
+      Hash: 9ab3b77dee106e5af6d13f3c0a2ceee2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CerraduraLlaveConClave
+  - hash:
+      serializedVersion: 2
+      Hash: ec35b57e31a5879952d7263512126f0f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LlaveConClave
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
